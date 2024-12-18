@@ -2,7 +2,7 @@
 require 'layouts/header.php';
 require '../config/config.php';
 if(!isset($_SESSION['adminname'])){
-  header("Location: http://localhost/other%20repos/hotel-booking/admin-panel/admins/login-admins.php");
+  header("Location: http://localhost/other%20repos/HotelBooking/admin-panel/admins/login-admins.php");
 }
   $hotels="SELECT count(*) AS count_hotels FROM hotels";
   $stmt=$PDO->prepare($hotels);

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 18, 2024 at 06:52 PM
+-- Generation Time: Dec 18, 2024 at 07:26 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -144,7 +144,8 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `username`, `email`, `mypassword`, `created_at`) VALUES
 (1, 'testing', 'testing@gmail.com', '$2y$10$0R8jCkL0JjsIcIbtR87hBuTJbusTgqfYV9YCIfqILpFsx/1SgBsuC', '2024-12-14 14:43:48'),
-(2, 'testing2', 'testing2@gmail.com', '$2y$10$0yaKMCnejy0j.T0QEPYJj.1iqAkP44hZVJcV6EJQWl4jWOLINb0K.', '2024-12-15 12:49:31');
+(2, 'testing2', 'testing2@gmail.com', '$2y$10$0yaKMCnejy0j.T0QEPYJj.1iqAkP44hZVJcV6EJQWl4jWOLINb0K.', '2024-12-15 12:49:31'),
+(3, 'test', 't@gmail.com', '$2y$10$IHYXGfoz9vQo.kqxyFhCQe9cnuG7knNm2IhjZr5pnpklnlSl1YsD2', '2024-12-18 18:18:11');
 
 -- --------------------------------------------------------
 
@@ -243,7 +244,7 @@ ALTER TABLE `rooms`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `utilities`

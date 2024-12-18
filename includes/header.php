@@ -1,7 +1,7 @@
 <?php
-$APPURL="http://localhost/other%20repos/hotel-booking/";
-$HOTELSIMAGES="http://localhost/other%20repos/hotel-booking/admin-panel/hotels-admins/hotels_images/";
-$ROOMSIMAGES="http://localhost/other%20repos/hotel-booking/admin-panel/rooms-admins/room_images/";
+$APPURL="http://localhost/other%20repos/HotelBooking/";
+$HOTELSIMAGES="http://localhost/other%20repos/HotelBooking/admin-panel/hotels-admins/hotels_images/";
+$ROOMSIMAGES="http://localhost/other%20repos/HotelBooking/admin-panel/rooms-admins/room_images/";
 
 session_start();
 ?>

@@ -1,6 +1,6 @@
 <?php
 session_start();
-$ADMINURL='http://localhost/other%20repos/hotel-booking/admin-panel/';
+$ADMINURL='http://localhost/other%20repos/HotelBooking/admin-panel/';
 ?>
 <!DOCTYPE html>
 <html lang="en">
